@@ -1,2 +1,2 @@
-# GW_web
+# GW_project
 Greeneville Walks project
