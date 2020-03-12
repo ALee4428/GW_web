@@ -1,8 +1,4 @@
 body{
-  /*background-color: lightgreen;
-  /*background-image: url("comingsoon.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;*/
   text-align: center;
 }
 
@@ -33,26 +29,30 @@ a {
 }
 
 h1 {
-    margin: 0 auto 0 125px;
+    margin: 0 auto 0 120px;
 }
 
-h2, h3 {
-  margin: 10px auto 0 125px;
+h2 {
+  margin: 10px auto 0 120px;
+}
+
+h3 {
+  margin: 15px auto 0 120px;
 }
 #quoteBox {
   display: block;
   font-size: 24px;
   font-style: Oblique;
-  font-weight: bold;
-  margin: 10px auto 0 auto;
-  height: 50px;
-  width: 800px;
+  text-shadow: 1px 1px #007718;
+  margin: 10px auto 0 120px;
+  height: auto;
+  width: auto;
 }
 
 #campus {
   height: 300px;
   width: 550px;
-  margin-left: 100px;
+  margin: 10px auto 0 120px;
 }
 
 p {
@@ -64,5 +64,5 @@ p a {
 
 footer {
   font-size: 10px;
-  margin: 15px auto 0 125px;
+  margin: 25px auto 0 125px;
 }
