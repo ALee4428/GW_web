@@ -5,10 +5,64 @@ body{
   background-size: cover;*/
   text-align: center;
 }
-a {
-  color: #007718;
+
+nav {
+  background: #007718;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 120px;
+  z-index: 1;
 }
-img {
-  height: 250px;
-  width: 500px;
+  nav ul {
+    list-style-type: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li a {
+    color: white;
+    display: block;
+    padding: 30px;
+    width: 60px;
+  }
+
+a {
+    color: #007718;
+}
+
+h1 {
+    margin: 0 auto 0 125px;
+}
+
+h2, h3 {
+  margin: 10px auto 0 125px;
+}
+#quoteBox {
+  display: block;
+  font-size: 24px;
+  font-style: Oblique;
+  font-weight: bold;
+  margin: 10px auto 0 auto;
+  height: 50px;
+  width: 800px;
+}
+
+#campus {
+  height: 300px;
+  width: 550px;
+  margin-left: 100px;
+}
+
+p {
+  margin: 25px auto 0 125px;
+}
+p a {
+  padding: 0 25px 0 25px;
+}
+
+footer {
+  font-size: 10px;
+  margin: 15px auto 0 125px;
 }
