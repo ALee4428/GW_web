@@ -2,6 +2,17 @@ body{
   text-align: center;
 }
 
+.active {
+  background-color: lightgreen;
+  color: #007718;
+  font-weight: bold;
+}
+
+.logo {
+  height: 25px;
+  width: 50px;
+}
+
 nav {
   background: #007718;
   height: 100%;
@@ -53,6 +64,18 @@ h3 {
   height: 300px;
   width: 550px;
   margin: 10px auto 0 120px;
+}
+
+#map {
+  height: 300px;
+  width: 550px;
+  margin: 10px auto 0 120px;
+}
+
+#thumbnail {
+  height: 60px;
+  width: 100px;
+  padding: 10px 25px 0 25px;
 }
 
 p {
