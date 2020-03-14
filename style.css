@@ -66,6 +66,11 @@ body{
   height: 25px;
   width: 50px;
 }
+.sign {
+  height: 25px;
+  width: 25px;
+  padding-left: 5px;
+}
 
 #trailLinks p {
   border: 10px solid black;
