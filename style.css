@@ -1,19 +1,18 @@
+/* CONTENTS
+    body
+    side navigation bar
+    quote box
+    images
+    containers
+    footer
+*/
+
 body{
   text-align: center;
 }
 
-.active {
-  background-color: lightgreen;
-  color: #007718;
-  font-weight: bold;
-}
-
-.logo {
-  height: 25px;
-  width: 50px;
-}
-
-nav {
+/* side navigation bar */
+#sideNav {
   background: #007718;
   height: 100%;
   position: fixed;
@@ -22,34 +21,25 @@ nav {
   width: 120px;
   z-index: 1;
 }
-  nav ul {
-    list-style-type: none;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  nav ul li a {
-    color: white;
-    display: block;
-    padding: 30px;
-    width: 60px;
-  }
-
-a {
-    color: #007718;
+#sideNav ul {
+  list-style-type: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#sideNav a {
+  color: white;
+  display: block;
+  padding: 30px;
+  width: 60px;
+}
+.active {
+  background-color: lightgreen;
+  color: #007718;
+  font-weight: bold;
 }
 
-h1 {
-    margin: 0 auto 0 120px;
-}
-
-h2 {
-  margin: 10px auto 0 120px;
-}
-
-h3 {
-  margin: 15px auto 0 120px;
-}
+/* quote box */
 #quoteBox {
   display: block;
   font-size: 24px;
@@ -60,24 +50,35 @@ h3 {
   width: auto;
 }
 
-#campus {
+/* images */
+#main {
   height: 300px;
   width: 550px;
   margin: 10px auto 0 120px;
 }
-
-#map {
-  height: 300px;
-  width: 550px;
-  margin: 10px auto 0 120px;
-}
-
 #thumbnail {
   height: 60px;
   width: 100px;
   padding: 10px 25px 0 25px;
 }
+.logo {
+  height: 25px;
+  width: 50px;
+}
 
+/* containers */
+a {
+    color: #007718;
+}
+h1 {
+    margin: 0 auto 0 120px;
+}
+h2 {
+  margin: 10px auto 0 120px;
+}
+h3 {
+  margin: 15px auto 0 120px;
+}
 p {
   margin: 25px auto 0 125px;
 }
@@ -85,6 +86,7 @@ p a {
   padding: 0 25px 0 25px;
 }
 
+/* footer */
 footer {
   font-size: 10px;
   margin: 25px auto 0 125px;
