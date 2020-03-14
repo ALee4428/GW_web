@@ -32,6 +32,7 @@ body{
   display: block;
   padding: 30px;
   width: 60px;
+  text-decoration: none;
 }
 #sideNav .active {
   background-color: lightgreen;
@@ -64,6 +65,28 @@ body{
 .logo {
   height: 25px;
   width: 50px;
+}
+
+#trailLinks p {
+  border: 10px solid black;
+}
+#trailLinks {
+  background-color: #007718;
+  height: 50px;
+  width: 650px;
+  padding-top: 25px;
+  padding-bottom: 0;
+  margin-left: 400px;
+}
+#trailLinks a {
+  color: white;
+  padding: 25px 50px 33px 50px;
+  text-decoration: none;
+}
+#trailLinks .active {
+  background-color: lightgreen;
+  color: #007718;
+  font-weight: bold;
 }
 
 /* containers */
