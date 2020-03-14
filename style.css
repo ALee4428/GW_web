@@ -33,7 +33,7 @@ body{
   padding: 30px;
   width: 60px;
 }
-.active {
+#sideNav .active {
   background-color: lightgreen;
   color: #007718;
   font-weight: bold;
