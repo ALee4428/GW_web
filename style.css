@@ -45,7 +45,7 @@ body{
   display: block;
   font-size: 24px;
   font-style: Oblique;
-  text-shadow: 1px 1px #007718;
+  text-shadow: 1px 1px limegreen;
   margin: 10px auto 0 120px;
   height: auto;
   width: auto;
@@ -55,7 +55,7 @@ body{
 #main {
   height: 300px;
   width: 550px;
-  margin: 10px auto 0 120px;
+  margin: 10px auto 0 100px;
 }
 #thumbnail {
   height: 60px;
