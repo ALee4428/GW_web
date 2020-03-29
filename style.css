@@ -52,6 +52,16 @@ body{
 }
 
 /* images */
+#doc {
+  height: 175px;
+  width: 250px;
+  margin-left: 130px;
+  margin-top: 40px;
+  display: inline;
+  float: left;
+  clear: left;
+}
+
 #main {
   height: 300px;
   width: 550px;
@@ -95,6 +105,15 @@ body{
 }
 
 /* containers */
+#about{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  text-align: left;
+  justify-content: center;
+}
+#students{
+  padding-top: 75px;
+}
 a {
     color: #007718;
 }
