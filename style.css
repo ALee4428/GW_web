@@ -116,6 +116,8 @@ p a {
 
 /* footer */
 footer {
-  font-size: 10px;
+  font-size: 8px;
   margin: 25px auto 0 125px;
+  position: bottom;
+  text-align: center;
 }
