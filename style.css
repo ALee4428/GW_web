@@ -53,15 +53,32 @@ body{
 
 /* images */
 #doc {
-  height: 175px;
-  width: 250px;
+  height: 75%;
+  width: 90%;
   margin-left: 130px;
   margin-top: 40px;
   display: inline;
   float: left;
   clear: left;
 }
-
+#amanda{
+  height: 75%;
+  width: 75%;
+  margin-left: 140px;
+  margin-top: 40px;
+  display: inline;
+  float: left;
+  clear: left;
+}
+#gunilla{
+  height: 75%;
+  width: 75%;
+  margin-left: 140px;
+  margin-top: 40px;
+  display: inline;
+  float: left;
+  clear: left;
+}
 #main {
   height: 300px;
   width: 550px;
