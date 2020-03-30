@@ -68,8 +68,8 @@ body{
   margin: 10px auto 0 100px;
 }
 #thumbnail {
-  height: 60px;
-  width: 100px;
+  height: 7%;
+  width: 7%;
   padding: 10px 25px 0 25px;
 }
 .logo {
@@ -105,15 +105,17 @@ body{
 }
 
 /* containers */
-#about{
+#aboutDoc{
   display: grid;
   grid-template-columns: 20% 80%;
   text-align: left;
   justify-content: center;
 }
-#students{
+
+#aboutStudents{
   padding-top: 75px;
 }
+
 a {
     color: #007718;
 }
