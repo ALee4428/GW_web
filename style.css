@@ -50,6 +50,9 @@ body{
   height: auto;
   width: auto;
 }
+.team{
+  padding: 100px auto 25px auto;
+}
 
 /* images */
 #doc {
@@ -98,21 +101,18 @@ body{
   width: 25px;
   padding-left: 5px;
 }
-
-#trailLinks p {
-  border: 10px solid black;
-}
+/*trail navigation*/
 #trailLinks {
   background-color: #007718;
   height: 50px;
-  width: 650px;
+  width: 60vw;
   padding-top: 25px;
   padding-bottom: 0;
-  margin-left: 400px;
+  margin-left: 300px;
 }
 #trailLinks a {
   color: white;
-  padding: 25px 50px 33px 50px;
+  padding: 25px 53px 33px 50px;
   text-decoration: none;
 }
 #trailLinks .active {
