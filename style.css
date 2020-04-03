@@ -50,9 +50,7 @@ body{
   height: auto;
   width: auto;
 }
-.team{
-  padding: 100px auto 25px auto;
-}
+
 
 /* images */
 #doc {
@@ -122,13 +120,12 @@ body{
 }
 
 /* containers */
-#aboutDoc{
+#aboutTeam{
   display: grid;
   grid-template-columns: 20% 80%;
   text-align: left;
   justify-content: center;
 }
-
 #aboutStudents{
   padding-top: 75px;
 }

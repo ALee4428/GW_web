@@ -91,3 +91,9 @@ body{
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+#infoLinks{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: left;
+  justify-content: center;
+}
