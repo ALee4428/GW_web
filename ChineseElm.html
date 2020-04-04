@@ -2,79 +2,57 @@
 <html>
   <head>
     <title>Chinese Elm</title>
-    <meta name='viewport' content='width=device=width' initial-scale='1.0'/>
+    <meta name='viewport' content='width=device-width' initial-scale='1.0'/>
     <link rel='stylesheet' type='text/css' href='trees.css'/>
   </head>
   <body>
-    <div>
 
+<!-- page title and nav links -->
       <h1 class='name'>Chinese Elm <span class='scientificName'>(Ulmus parvifolia)</span>
       </h1>
+      <p class='navLinks'>
+        <a href='trail1.html'>Trail 1: The Niswonger Loop Trail</a>
+        <!--<a href='trail1.html'>Trail#</a>-->
+      </p>
 
-      <p><a href='trail1.html'>Back to Trail</a></p>
 <!--slideShowBox-->
-      <div id=slideShowBox>
+      <div class=slideshowBox>
+<!--images with numbers-->
+        <div class='slideshow fade'>
+          <img id='main' src= NiswongerTrail/chineseElm/photo1.JPEG>
+          <!--<div class="text">Caption Text</div>-->
+        </div>
 
-<!--images-->
-          <div id='slideShow'>
-            <div class='picNumber'>1 / 9</div>
-            <img id='main' src= NiswongerTrail/ChineseElm/photo1.JPEG>
-            <div class="text">Caption Text</div>
-          </div>
+        <div class='fade slideshow'>
+          <img id='main' src= NiswongerTrail/chineseElm/photo2.JPEG>
+        </div>
 
-          <div id='slideShow'>
-            <div class='picNumber'>2 / 9</div>
-            <img id='main' src= NiswongerTrail/ChineseElm/photo2.JPEG>
-            <div class="text">Caption Text</div>
-          </div>
+        <div class='fade slideshow'>
+          <img id='main' src= NiswongerTrail/chineseElm/photo3.png>
+        </div>
 
-          <div id='slideShow'>
-            <div class='picNumber'>3 / 9</div>
-            <img id='main' class='sideways' src= NiswongerTrail/ChineseElm/photo3.png>
-            <div class="text">Caption Text</div>
-          </div>
+        <div class='fade slideshow'>
+          <img id='main' src= NiswongerTrail/chineseElm/photo4.jpg>
+        </div>
 
-          <div id='slideShow'>
-            <div class='picNumber'>4 / 9</div>
-            <img id='main' src= NiswongerTrail/ChineseElm/photo4.jpg>
-            <div class="text">Caption Text</div>
-          </div>
+        <div class='fade slideshow'>
+          <img id='main' src= NiswongerTrail/chineseElm/photo5.png>
+        </div>
 
-          <div id='slideShow'>
-            <div class='picNumber'>5 / 9</div>
-            <img id='main' class='sideways'src= NiswongerTrail/ChineseElm/photo5.png>
-            <div class="text">Caption Text</div>
-          </div>
+        <div class='fade slideshow'>
+          <img id='main' src= NiswongerTrail/chineseElm/photo6.png>
+        </div>
 
-          <div id='slideShow'>
-            <div class='picNumber'>6 / 9</div>
-            <img id='main' src= NiswongerTrail/ChineseElm/photo6.png>
-            <div class="text">Caption Text</div>
-          </div>
+        <div class='fade slideshow'>
+          <img id='main' src= NiswongerTrail/chineseElm/photo7.png>
+        </div>
 
-          <div id='slideShow'>
-            <div class='picNumber'>7 / 9</div>
-            <img id='main' class='sideways' src= NiswongerTrail/ChineseElm/photo7.png>
-            <div class="text">Caption Text</div>
-          </div>
-
-          <div id='slideShow'>
-            <div class='picNumber'>8 / 9</div>
-            <img id='main' class='sideways' src= NiswongerTrail/ChineseElm/photo8.png>
-            <div class="text">Caption Text</div>
-          </div>
-
-          <div id='slideShow'>
-            <div class='picNumber'>9 / 9</div>
-            <img id='main' class='sideways' src= NiswongerTrail/ChineseElm/photo9.JPEG>
-            <div class="text">Caption Text</div>
-          </div>
-<!--nextButtons-->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-<!-- The dots/circles -->
-          <div style="text-align:center">
+        <div class='fade slideshow'>
+          <img id='main' src= NiswongerTrail/chineseElm/photo9.JPEG>
+        </div>
+<!-- The dots / previous & next buttons -->
+        <div style="text-align:center">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
@@ -83,25 +61,23 @@
             <span class="dot" onclick="currentSlide(6)"></span>
             <span class="dot" onclick="currentSlide(7)"></span>
             <span class="dot" onclick="currentSlide(8)"></span>
-            <span class="dot" onclick="currentSlide(9)"></span>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
           </div>
-          <p>Fun Fact: The Chinese Elm blah, blah, blah, blah. Lorem ipsum dolor sit amit.</p>
-      </div>
-
-      <div id='infoLinks'>
-          <div>
-            <h3>General Properties</h3>
-            <h3>Music</h3>
-            <h3>Literature</h3>
-            <h3>Art</h3>
-      
-       </div>
-
-      </div>
-
-
-<!--endPage-->
     </div>
+<!--end slideshowBox -->
+    <p>Fun Fact: The Chinese Elm blah, blah, blah, blah. Lorem ipsum dolor sit amit.</p>
+    <section class='infoLinks'>
+      <div>
+        <h2 style='text-decoration:underline'>General</h2>
+      </div>
+      <div>
+        <h2 style='text-decoration:underline'>Literature/Art</h2>
+      </div>
+      <div>
+        <h2 style='text-decoration:underline'>Music</h2>
+      </div>
+    </section>
 
-
+    <script src = "script.js"></script>
   </body>
+  </html>

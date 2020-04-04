@@ -4,7 +4,7 @@
 body{
   text-align: center;
 }
-/* text */
+/* titleText */
 .scientificName{
   font-style: oblique;
   color: red;
@@ -12,33 +12,33 @@ body{
 }
 .name{
   font-size: 3vw;
+  margin-bottom: 0;
 }
+/*navigationLinks*/
+.navLinks, a{
+  color: #007718;
+  margin-top: 0;
+}
+
 /*images*/
 #main{
-  height:25%;
-  width: 25%;
+  width: 33%;
 }
+
 /* Slideshow container */
-#slideShowBox {
-  width: 75vw;
+.slideshowBox {
+  max-width: 1000px;
   position: relative;
   margin: auto;
 }
-#slideShow {
+.slideshow {
   display: none;
 }
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
+
+/* numbers, dots, next & previous buttons*/
+.picNumber {
+  color: #007718;
+  font-size: ;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -48,13 +48,30 @@ body{
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #007718;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: lightgreen;
+}
+.prev:hover, .next:hover {
+  color: lightgreen;
+}
+.prev, .next {
+  cursor: pointer;
+  color: #007788
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 .fade {
   -webkit-animation-name: fade;
@@ -70,30 +87,11 @@ body{
   from {opacity: .4}
   to {opacity: 1}
 }
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-#infoLinks{
+
+.infoLinks{
   display: grid;
-  grid-template-columns: 50% 50%;
-  text-align: left;
-  justify-content: center;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 150px 25px;
+  align-items: center;
+  justify-items: center;
 }
