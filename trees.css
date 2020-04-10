@@ -100,3 +100,12 @@ body{
   text-decoration: underline;
   font-size: 2vw;
 }
+
+@media screen and (max-width: 600px){
+  .name{
+    font-size: 4vw;
+  }
+  #main{
+    width: 55%;
+  }
+}
