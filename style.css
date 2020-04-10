@@ -43,7 +43,7 @@ body{
 /* quote box */
 #quoteBox {
   display: block;
-  font-size: 24px;
+  font-size: 2vw;
   font-style: Oblique;
   text-shadow: 1px 1px limegreen;
   margin: 10px auto 0 120px;
@@ -135,9 +135,11 @@ a {
 }
 h1 {
     margin: 0 auto 0 120px;
+    font-size: 3vw;
 }
 h2 {
   margin: 10px auto 0 120px;
+  font-size: 1.75vw;
 }
 h3 {
   margin: 15px auto 0 120px;
