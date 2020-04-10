@@ -8,17 +8,14 @@ body{
 .scientificName{
   font-style: oblique;
   color: red;
-  font-size: 2vw;
 }
 .name{
-  font-size: 3vw;
   margin-bottom: 0;
 }
 /*navigationLinks*/
 .navLinks, a{
   color: #007718;
   margin-top: 0;
-  font-size: 1vw;
 }
 
 /*images*/
