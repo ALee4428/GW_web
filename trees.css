@@ -104,7 +104,11 @@ body{
   #main{
     width: 55%;
   }
+  .infoLinks{
+    display: block;
+    text-align: left;
+  }
   .info{
-    font-size: 2vw;
+    font-size: 3vw;
   }
 }
