@@ -95,7 +95,6 @@ body{
 }
 .info{
   text-decoration: underline;
-  font-size: 2vw;
 }
 
 @media screen and (max-width: 600px){
@@ -104,5 +103,8 @@ body{
   }
   #main{
     width: 55%;
+  }
+  .info{
+    font-size: 2vw;
   }
 }
