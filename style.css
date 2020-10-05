@@ -128,6 +128,9 @@ body{
 .trails {
   margin-top: 45px;
 }
+.openbtn {
+  display: none;
+}
 #aboutTeam{
   display: grid;
   grid-template-columns: 20% 80%;
@@ -200,6 +203,9 @@ footer {
     height: 50vw;
     /* width: 550px; */
     /* margin: auto; */
+  }
+  .openbtn {
+    display: block;
   }
   .about {
     font-size: 2vw;
