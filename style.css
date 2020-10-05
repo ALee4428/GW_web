@@ -18,7 +18,7 @@ body{
   position: fixed;
   top: 0;
   left: 0;
-  width: 120px;
+  width: 5.5vw;
   z-index: 1;
 }
 #sideNav ul {
@@ -28,15 +28,17 @@ body{
   padding: 0;
 }
 #sideNav a {
+  border-bottom: 1px solid white;
   color: white;
   display: block;
-  padding: 30px;
-  width: 60px;
+  font-size: 1.03vw;
+  padding: 30px 5px;
+  height: 60px;
   text-decoration: none;
 }
 #sideNav .active {
-  background-color: lightgreen;
-  color: #007718;
+  background-color: #29A745;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -158,4 +160,9 @@ footer {
   margin: 25px auto 0 125px;
   position: bottom;
   text-align: center;
+}
+
+/* media query */
+@media screen and (max-width: 800px){
+
 }
