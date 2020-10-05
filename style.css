@@ -223,6 +223,7 @@ footer {
   #quoteBox {
 
     font-size: 3vw;
-    text-shadow: 0.2px 0.2px #29A745;
+    text-shadow: none;
+    /* text-shadow: 0.2px 0.2px #29A745; */
   }
 }
