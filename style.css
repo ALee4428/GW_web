@@ -9,6 +9,7 @@
 
 body{
   text-align: center;
+  /* font-family: georgia; */
 }
 
 /* side navigation bar */
@@ -42,12 +43,14 @@ body{
   font-weight: bold;
 }
 
+
+
 /* quote box */
 #quoteBox {
   display: block;
-  font-size: 2vw;
+  font-size: 1.75vw;
   font-style: Oblique;
-  text-shadow: 1px 1px limegreen;
+  text-shadow: 1px 1px #29A745;
   margin: 10px auto 0 120px;
   height: auto;
   width: auto;
@@ -83,9 +86,9 @@ body{
   clear: left;
 }
 #main {
-  height: 300px;
-  width: 550px;
-  margin: 10px auto 0 100px;
+  height: 20vw;
+  /* width: 550px; */
+  margin: 10px 5vw 0 100px;
 }
 #thumbnail {
   height: 7%;
@@ -122,6 +125,9 @@ body{
 }
 
 /* containers */
+.trails {
+  margin-top: 45px;
+}
 #aboutTeam{
   display: grid;
   grid-template-columns: 20% 80%;
@@ -135,17 +141,16 @@ body{
 a {
     color: #007718;
 }
-h1 {
+/* h1 {
     margin: 0 auto 0 120px;
     font-size: 3vw;
-}
-h2 {
-  margin: 10px auto 0 120px;
-  font-size: 1.75vw;
-}
+}*/
+/* h2 {
+font-style: Oblique;
+} */
 h3 {
   margin: 15px auto 0 120px;
-  font-size: 1.5vw;
+  /* font-size: 1.5vw; */
 }
 p {
   margin: 25px auto 0 125px;
@@ -163,6 +168,41 @@ footer {
 }
 
 /* media query */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
+
+  #sideNav {
+    background: #007718;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5.5vw;
+    z-index: 1;
+  }
+  #sideNav ul {
+    list-style-type: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #sideNav a {
+    border-bottom: 1px solid white;
+    color: white;
+    display: block;
+    font-size: 1.03vw;
+    padding: 30px 5px;
+    height: 60px;
+    text-decoration: none;
+  }
+  #sideNav .active {
+    background-color: #29A745;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  #main {
+    height: 50vw;
+    /* width: 550px; */
+    /* margin: auto; */
+  }
 
 }
