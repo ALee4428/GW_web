@@ -50,7 +50,7 @@ body{
   display: block;
   font-size: 1.75vw;
   font-style: Oblique;
-  text-shadow: 1px 1px #29A745;
+  text-shadow: 0.5px 0.5px #29A745;
   margin: 1vw auto;
   height: auto;
   width: 85vw;
@@ -221,6 +221,8 @@ footer {
   }
 
   #quoteBox {
+
     font-size: 3vw;
+    text-shadow: 0.25px 0.25px #29A745;
   }
 }
